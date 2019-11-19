@@ -75,7 +75,7 @@ OPERATION_TYPE = "createDatabase"
 # Default value : None
 # Mandatory     : Yes
 #-----------------------------------------------------------------------------
-GDBNAME = "demo"
+GDBNAME = "dev"
 
 #-----------------------------------------------------------------------------
 # Name          : DATABASECONFTYPE
@@ -202,7 +202,7 @@ DATABASECONFTYPE  = "SI"
 # Default value : <db_name> specified in GDBNAME
 # Mandatory     : No
 #-----------------------------------------------------------------------------
-SID = "demo"
+SID = "dev"
 
 #-----------------------------------------------------------------------------
 # Name          : CREATEASCONTAINERDATABASE
@@ -608,7 +608,7 @@ CHARACTERSET="AL32UTF8"
 # Default value : None
 # Mandatory     : NO
 #-----------------------------------------------------------------------------
-INITPARAMS="memory_target=0,sga_target=500,pga_aggregate_target=100,java_jit_enabled=false"
+INITPARAMS="memory_target=0,sga_target=0,pga_aggregate_target=0,java_jit_enabled=false"
 
 #-----------------------------------------------------------------------------
 # Name          : SAMPLESCHEMA
@@ -674,7 +674,7 @@ AUTOMATICMEMORYMANAGEMENT="False"
 # Default value : none
 # Mandatory     : YES
 #-----------------------------------------------------------------------------
-SOURCEDB = "myhost:1521:demo"
+SOURCEDB = "myhost:1521:dev"
 # Name          : SYSDBAUSERNAME
 # Datatype      : String
 # Description   : A user with DBA role.
@@ -716,7 +716,7 @@ TEMPLATENAME = "My Copy TEMPLATE"
 # Default value : none
 # Mandatory     : YES
 #-----------------------------------------------------------------------------
-SOURCEDB = "demo"
+SOURCEDB = "dev"
 
 #-----------------------------------------------------------------------------
 # Name          : SYSDBAUSERNAME
@@ -770,7 +770,7 @@ TEMPLATENAME = "My Clone TEMPLATE"
 # Default value : none
 # Mandatory     : YES
 #-----------------------------------------------------------------------------
-SOURCEDB = "demo"
+SOURCEDB = "dev"
 
 #-----------------------------------------------------------------------------
 # Name          : SYSDBAUSERNAME
@@ -815,7 +815,7 @@ TEMPLATENAME = "New Database"
 # Default value : None
 # Mandatory     : Yes
 #-----------------------------------------------------------------------------
-GDBNAME = "demo11.us.oracle.com"
+GDBNAME = "dev11.us.oracle.com"
 
 #-----------------------------------------------------------------------------
 # Name          : SCRIPTDESTINATION
@@ -1056,7 +1056,7 @@ GDBNAME = "demo11.us.oracle.com"
 # Default value : None
 # Mandatory     : Yes
 #-----------------------------------------------------------------------------
-DB_UNIQUE_NAME = "demo11c.us.oracle.com"
+DB_UNIQUE_NAME = "dev11c.us.oracle.com"
 
 #-----------------------------------------------------------------------------
 # Name          : INSTANCENAME
@@ -1132,7 +1132,7 @@ SYSDBAUSERNAME = "sys"
 # Default value : None
 # Mandatory     : Yes
 #-----------------------------------------------------------------------------
-DB_UNIQUE_NAME = "demo11c.us.oracle.com"
+DB_UNIQUE_NAME = "dev11c.us.oracle.com"
 
 #-----------------------------------------------------------------------------
 # Name          : INSTANCENAME
@@ -1142,7 +1142,7 @@ DB_UNIQUE_NAME = "demo11c.us.oracle.com"
 # Default value : None
 # Mandatory     : Yes
 #-----------------------------------------------------------------------------
-INSTANCENAME = "demo11g"
+INSTANCENAME = "dev11g"
 
 #-----------------------------------------------------------------------------
 # Name          : NODENAME
@@ -1197,7 +1197,7 @@ SYSDBAUSERNAME = "sys"
 # Default value : none
 # Mandatory     : YES
 #-----------------------------------------------------------------------------
-SOURCEDB = "demo"
+SOURCEDB = "dev"
 
 #----------------------------------------------------------------------------------
 # Name          : PDBNAME
@@ -1473,7 +1473,7 @@ PDBNAME = "PDB1"
 # Default value : none
 # Mandatory     : YES
 #-----------------------------------------------------------------------------
-SOURCEDB = "demo"
+SOURCEDB = "dev"
 
 #----------------------------------------------------------------------------------
 # Name          : PDBNAME
@@ -1573,7 +1573,7 @@ ARCHIVETYPE = "TAR"
 # Default value : none
 # Mandatory     : YES
 #-----------------------------------------------------------------------------
-SOURCEDB = "demo"
+SOURCEDB = "dev"
 
 #----------------------------------------------------------------------------------
 # Name          : PDBNAME
@@ -1599,7 +1599,7 @@ PDBNAME = "PDB1"
 # Default value : none
 # Mandatory     : YES
 #-----------------------------------------------------------------------------
-SOURCEDB = "demo"
+SOURCEDB = "dev"
 
 #----------------------------------------------------------------------------------
 # Name          : PDBNAME
