@@ -1,5 +1,5 @@
 FROM centos:7
-MAINTAINER jaspeen
+MAINTAINER orewriter
 
 ADD assets /assets
 
